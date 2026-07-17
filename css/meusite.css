@@ -13,6 +13,10 @@ body {
   background-color: #F5F5DC;
 }
  
+#home {
+ margin: 80px;
+}
+
 .aboutme {
   justify-content: center;
   display: flex;
@@ -108,4 +112,7 @@ ul {
 #info {
   color: #000000;
 }
- 
+
+
+
+
