@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+  line-height: 1.6;
+  background-color: #F5F5DC;
+}
+ 
+.aboutme {
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+}
+
+.me{
+  padding: 20px 20px;
+}
+
+.esporte {
+  padding: 20px 20px;
+}
+
+#home h2{
+    color:rgb(210, 105, 30);
+}
+
+.minhaimagem {
+    width: 270px;
+    height: auto;
+    display: block;
+    border-radius: 150%;
+    object-fit:contain;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 3px solid #D2691E
+}
+
+.foto {
+  width: 10px;
+  display: block;
+  height: auto;
+  margin-left: 50px;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 3px solid #D2691E;
+}
+
+.texto {
+  margin-right: 50px;
+}
+
+.header {
+  background-color: #A0522D;
+  text-align: center;
+  border-radius: 1px;
+  padding-top: 10px;
+ }
+
+a {
+    text-decoration: none;
+    transition: 0.7s;
+    color:	#000000;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#D2691E;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+#footer {
+  text-align: center;
+  padding: 30px 30px;
+  background-color: #A0522D;
+  color: #FFFFFF;
+}
+
+#contatos, .localizacao h3, .esporte h1, .me h1 {
+  color:#D2691E;
+}
+
+#link {
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: #CD853F ;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#info {
+  color: #000000;
+}
+ 
