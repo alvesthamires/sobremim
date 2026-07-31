@@ -21,6 +21,7 @@ body {
   justify-content: center;
   display: flex;
   border-radius: 10px;
+  
 }
 
 .me{
@@ -112,6 +113,44 @@ ul {
 #info {
   color: #000000;
 }
+
+form {
+  margin-bottom: 40px;
+  display: flex;   /* 1. ->  indica que vou mexer no formulário */
+  flex-direction: column; /* 1.1 -> indica que os itens do formulário ficarão em coluna */
+  width: 300px;
+  margin: auto;
+}
+
+
+.feedback {
+  color: rgb(210, 105, 30);
+}
+
+input { 
+  margin-bottom: 10px; 
+  padding: 5px; 
+}
+
+button {   /* cursor: pointer -> muda o desenho do cursor ao passar pela caixa "enviar feedback" */
+padding: 10px; 
+cursor: pointer; 
+}
+
+.container-produtos {
+display: grid;
+grid-template-columns: 1fr;
+gap: 15px;
+}
+
+@media (min-width: 768px) { 
+.container-info {
+grid-template-columns: 1fr;
+}
+}
+
+
+
 
 
 

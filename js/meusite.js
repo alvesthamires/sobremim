@@ -36,9 +36,6 @@ form.addEventListener("submit", function(event){
     //adiciona o li como filho da ul do HTML
     listaComentarios.appendChild(novoItem);
 
-
-
-
     //Limpeza dos campos
     inputNome.value = "";
     inputComentario.value = "";

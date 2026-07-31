@@ -9,7 +9,7 @@
 
   <link rel="stylesheet" href="css/meusite.css">
 </head>
-<body>
+<body class="container-info">
    
   <header class="header">
     <img class="minhaimagem" src="img/fotomeusite.jpeg" alt="Minha foto" height="120">
@@ -72,7 +72,41 @@
               </article>
             </article>
                </main>
-              <br><br><br>
+              <br><br>
+
+                <h2 class="feedback">Deixe seu Feedback sobre esse site</h2>
+   
+    <form id="form-feedback">
+        <label for="nome">Seu Nome:</label>
+        <input type="text" id="nome" placeholder="Digite o seu nome">
+
+
+        <label for="comentario">Seu Comentário:</label>
+        <input type="text" id="comentario" placeholder="Digite o seu feedback sobre o site">
+
+        
+        <button type="submit" id="btn-enviar">Enviar Feedback</button>
+    </form>
+
+
+     <!-- Local onde a mensagem de erro ou sucesso vai aparecer -->
+    <div id="mensagem-feedback">
+
+
+    </div>
+
+
+  <br><br>
+     <!-- Lista onde os feedbacks serão adicionados -->
+    <h2 class="feedback">Comentários Recentes:</h3>
+    <ul id="lista-comentarios">
+       
+    </ul>
+
+
+     <script src="js/meusite.js"></script>
+
+    <br><br><br>
 
               <footer>
                 <h1><p id=contatos>Meus Contatos</h1></p>
